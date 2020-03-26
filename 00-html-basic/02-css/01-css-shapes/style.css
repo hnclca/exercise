@@ -1,5 +1,12 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 div {
-  margin: 16px;
+  margin: 36px;
+  display: block;
+  flex: initial;
   justify-content: center;
   align-items:center;
   display:-webkit-flex;
