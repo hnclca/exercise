@@ -1,0 +1,50 @@
+body {
+	background: #dddddd;
+}
+
+#canvas {
+	margin: 10px;
+	background: white;
+	border: thin solid #aaaaaa;
+}
+
+#glasspane {
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	padding: 0px 20px 10px 10px;
+	background: rgba(0, 0, 0, 0.3);
+	border: thin solid rgba(0, 0, 0, 0.6);
+	color: #eeeeee;
+	font-family: Lucida Sans, Arial, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	cursor: pointer;
+
+	box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 20px;
+}
+
+#glasspane h2 {
+	font-weight: normal;
+}
+
+#glasspane .title {
+	font-size: 2em;
+	color: rgba(255, 255, 0, 0.8);
+}
+
+#glasspane a:hover {
+	color: yellow;
+}
+
+#glasspane a {
+	font-size: 3em;
+	text-decoration: none;
+	color: #cccccc;
+}
+
+#glasspane p {
+	margin: 10px;
+	color: rgba(65, 65, 220, 1.0);
+	font-size: 1.6em;
+	font-family: Palatino, Arial, Helvetica, sans-serif;
+}

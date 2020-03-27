@@ -1,0 +1,30 @@
+body {
+	background: rgba(100, 145, 250, 0.3);
+}
+
+#canvas {
+	margin: 10px;
+	background: white;
+	border: thin solid #aaaaaa;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+}
+
+#controls {
+	display: flex;
+	margin-left: 10px;
+	align-items: center;
+}
+
+#scaleOutput {
+	width: 60px;
+	height: 30px;
+	text-align: center;
+	vertical-align: middle;
+	font: 18px Arial;
+	color: blue;
+}
+
+#scaleSlider {
+	margin-left: 10px;
+}

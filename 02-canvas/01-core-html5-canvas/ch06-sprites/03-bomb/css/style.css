@@ -1,0 +1,15 @@
+body {
+	background: rgba(100, 145, 250, 0.3);
+}
+
+#canvas {
+	margin: 0 0 20px 20px;
+	padding: 0;
+	border: thin solid #aaaaaa;
+	background-color: lightskyblue;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#controls {
+	margin: 20px;
+}

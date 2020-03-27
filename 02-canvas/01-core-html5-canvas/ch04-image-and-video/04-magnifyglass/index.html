@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>放大镜</title>
+		
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+	</head>
+	<body>
+		<div id="controls">
+			<output id="scaleOutput">1.5</output>
+			<input type="range" id="scaleSlider" value="1.5" max="3.0" min="1.0" step="0.01" />
+			<output id="radiusOutput">120</output>
+			<input type="range" id="radiusSlider" value="120" max="250" min="40" step="5" />
+		</div>
+
+		<div id="instructions">
+			<p>拖拽图片到画板区域可替换图片。</p>
+		</div>
+		
+		<canvas id="canvas" width="660" height="417">
+			Canvas not supported
+		</canvas>
+		
+		<script src="../../shared/js/tools.js"></script>
+		<script src="js/magnifyglass.js"></script>
+	</body>
+</html>

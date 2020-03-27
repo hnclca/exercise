@@ -1,0 +1,21 @@
+body {
+	background: #DDDDDD;
+	padding: 0;
+}
+
+#canvas {
+	margin: 0 0 20px 20px;
+	background: white;
+	border: thin solid #AAAAAA;
+}
+
+#snapshotImageElement {
+	margin: 0 0 20px 20px;
+	background: white;
+	border: thin solid #AAAAAA;
+	display: none;
+}
+
+#controls {
+	margin: 20px;
+}

@@ -1,0 +1,16 @@
+body {
+	background: #dddddd;
+}
+
+#canvas {
+	margin: 10px;
+	background: white;
+	border: thin solid #aaaaaa;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#controls {
+	position: absolute;
+	top: 20px;
+	left: 475px;
+}

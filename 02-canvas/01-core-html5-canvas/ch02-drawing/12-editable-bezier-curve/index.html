@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>可编辑贝塞尔曲线</title>
+		
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+	</head>
+	<body>
+		<div id="controls">
+			笔触颜色
+			<select id="strokeStyleSelect">
+				<option value="red" selected>红</option>
+				<option value="green">绿</option>
+				<option value="blue">蓝</option>
+				<option value="orange">橙</option>
+				<option value="cornflowerblue">矢车菊蓝</option>
+				<option value="goldenrod">淡金黄</option>
+				<option value="navy">海军蓝</option>
+				<option value="purple">紫</option>
+			</select>
+			<input type="button" id="clearButton" value="清除全部" />
+		</div>
+		
+		<div id = "instructions" class="floatingControls">
+			<p>拖拽端点或控制点改变曲线形状。</p>
+			<p>当端点或控制点拖拽完成后，点击点外区域结束曲线编辑。</p>
+			<input type="button" id="instructionOkButton" value="知道了" />
+			<input type="button" id="instructionNoMoreButton" value="不再提示" />
+		</div>
+
+		<canvas id="canvas" width="600" height="400">
+			Canvas not supported
+		</canvas>
+		
+		<script src="../../shared/js/tools.js"></script>
+		<script src="js/editableBezierCurve.js"></script>
+	</body>
+</html>

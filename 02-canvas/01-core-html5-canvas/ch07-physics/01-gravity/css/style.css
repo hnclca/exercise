@@ -1,0 +1,18 @@
+body {
+	background: rgba(100, 145, 250, 0.3);
+}
+
+#canvas {
+	margin: 20px;
+	padding: 0;
+	border: thin solid #aaaaaa;
+	background-color: white;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#thrusterCanvas {
+	background: transparent;
+	position: absolute;
+	left: 150px;
+	top: 200px;
+ }

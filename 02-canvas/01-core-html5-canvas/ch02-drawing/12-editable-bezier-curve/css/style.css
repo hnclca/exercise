@@ -1,0 +1,35 @@
+body {
+	background: #dddddd;
+}
+
+#canvas {
+	margin: 10px;
+	background: white;
+	border: thin solid #aaaaaa;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+}
+
+#controls {
+	position: absolute;
+	top: 28px;
+	left: 30px;
+}
+
+.floatingControls {
+	position: absolute;
+	left: 150px;
+	top: 100px;
+	width: 300px;
+	padding: 20px;
+	background: rgba(0, 0, 200, 0.1);
+	color: blue;
+	border: thin solid rgba(0, 0, 0, 0.3);
+	box-shadow: rgba(0, 0, 0, 0.2) 6px 6px 8px;
+	display: none;
+
+}
+.floatingControls p {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}

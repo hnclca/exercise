@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>可编辑多边形</title>
+		
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+	</head>
+	<body>
+		<div id="controls">
+			笔触色
+			<select id="strokeStyleSelect">
+				<option value="red" selected>红</option>
+				<option value="green">绿</option>
+				<option value="blue">蓝</option>
+				<option value="orange">橙</option>
+				<option value="purple">紫</option>
+				<option value="cornflowerblue">矢车菊蓝</option>
+				<option value="goldenrod">淡金黄</option>
+				<option value="navy">海军蓝</option>
+			</select>
+			填充色
+			<select id="fillStyleSelect">
+				<option value="rgba(255, 0, 0, 0.5)" selected>半透明红</option>
+				<option value="rgba(0, 255, 0, 0.5)">半透明绿</option>
+				<option value="rgba(0, 0, 255, 0.5)">半透明蓝</option>
+				<option value="orange">橙</option>
+				<option value="purple">紫</option>
+			</select>
+			边数
+			<select id="sidesSelect">
+				<option value="4" selected>4</option>
+				<option value="8">8</option>
+				<option value="12">12</option>
+				<option value="16">16</option>
+				<option value="20">20</option>
+			</select>
+			初始角度
+			<select id="startAngleSelect">
+				<option value="0" selected>0</option>
+				<option value="45">45</option>
+				<option value="85">85</option>
+				<option value="125">125</option>
+				<option value="165">165</option>
+			</select>
+			填充<input type="checkbox" id="fillCbx" checked />
+			辅助线<input type="checkbox" id="guidelineCbx" checked />
+			<br />
+			编辑<input type="checkbox" id="editableCbx" />
+			<input type="button" id="clearButton" value="清除全部" />
+		</div>
+		
+		<canvas id="canvas" width="600" height="400">
+			Canvas not supported
+		</canvas>
+		
+		<script src="../../shared/js/dial.js"></script>
+		<script src="../../shared/js/point.js"></script>
+		<script src="../../shared/js/polygon.js"></script>
+		<script src="../../shared/js/tools.js"></script>
+		<script src="js/editablePolygon2.js"></script>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>像素操作</title>
+		
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+	</head>
+	<body>
+		<div id="controls">
+			<input type="radio" name="operations" id="resetRadio" checked/>原图
+			<input type="radio" name="operations" id="negativeRadio" />负片
+			<input type="radio" name="operations" id="blackAndWhiteRadio" />黑白
+			<input type="radio" name="operations" id="embossRadio" />浮雕
+			<input type="radio" name="operations" id="sunglassRadio" />墨镜
+		</div>
+
+		<canvas id="canvas" width="780" height="550">
+			Canvas not supported
+		</canvas>
+
+		<script src="../../shared/js/tools.js"></script>
+		<script src="../../shared/js/pixelFilter.js"></script>
+		<script src="js/pixelOperation.js"></script>
+	</body>
+</html>

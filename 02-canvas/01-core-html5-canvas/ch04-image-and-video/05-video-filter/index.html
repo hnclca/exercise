@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>视频滤镜</title>
+		
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+	</head>
+	<body>
+		<div id="controls">
+			<input type="button" id="controlButton" value="播放" />
+			彩色<input type="checkbox" id="colorCheckbox" checked />
+			翻转<input type="checkbox" id="flipCheckbox" />
+		</div>
+
+		<video id="video" src="../../shared/videos/video.ogv"></video>
+
+		<canvas id="canvas" width="720" height="400">
+			Canvas not supported
+		</canvas>
+		
+		<script src="../../shared/js/tools.js"></script>
+		<script src="../../shared/js/requestNextAnimationFrame.js"></script>
+		<script src="js/videoFliter.js"></script>
+	</body>
+</html>
